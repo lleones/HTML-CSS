@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+
+    <a href="index.html">Voltar para o index</a>
+    <hr><br>
+
+    <form>
+        <label for="Campo_nome">Nome:</label>
+        <input required id="Campo_nome" type="text" placeholder="Digite seu nome">
+
+        <br><br>
+
+        <label for="Campo_email">Email:</label>
+        <input required id="Campo_email" type="email" placeholder="Digite seu email">
+
+        <br><br>
+
+        <label for="Campo_senha">Senha:</label>
+        <input required id="Campo_senha" type="password" placeholder="Digite sua senha"><br>
+        <br>
+        <hr>
+
+        <h2>Animal de estimação:</h2>
+
+        <input type="radio" id="cachorro" name="animal" value="cachorro">
+        <label for="cachorro">Cachorro</label>
+        <br>
+
+        <input type="radio" id="gato" name="animal" value="gato">
+        <label for="gato">Gato</label>
+        <br>
+        <hr>
+
+        <h2>Alergias:</h2>
+
+        <input type="checkbox" name="alergia" id="acaro" value="acaro">
+        <label for="acaro">Acaro</label><br>
+
+        <input type="checkbox" name="alergia" id="pelo" value="pelo">
+        <label for="pelo">Pelo</label><br>
+
+        <h2>Escolha uma cor:</h2>
+        <select name="cores">
+
+            <option selected disabled value="">Escolha uma cor</option>
+            <option value="vermelho">Vermelho</option>
+            <option value="azul">Azul</option>
+            <option value="verde">Verde</option>
+
+        </select>
+        <br><br>
+
+        <h2>Digite sua mensagem:</h2>
+        <textarea placeholder="Digite aqui a sua mensagem" name="mensagem"></textarea>
+
+        <br><br>
+
+        <button>Clique aqui para submeter</button>
+
+        <br><br>
+
+        <input type="submit" value="Enviar Formulário">
+    </form>
+
+</body>
+
+</html>
