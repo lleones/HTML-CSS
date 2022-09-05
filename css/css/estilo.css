@@ -1,0 +1,37 @@
+/*o asterisco é uma propriedade que todas as classes vão ter*/
+* {
+    padding: 20px;
+}
+
+
+body {
+    background: rgb(180, 159, 159);
+}
+
+p {
+    color: red;
+}
+
+/*classe*/
+.centro {
+    text-align: center;
+}
+
+/*id*/
+#destaque {
+    color: blue;
+    font-size: 20px;
+}
+
+.fundo {
+    height: 300px;
+    background-color: gray;
+    background-image: url("../../html/site1/imagens/taylor.com.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background: gray url("../../html/site1/imagens/taylor.com.jpg") 100% no-repeat center;
+
+
+}
