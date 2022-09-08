@@ -1,93 +1,25 @@
-/*o asterisco é uma propriedade que todas as classes vão ter*/
-* {}
-
-h1 {
-    text-align: center;
-    border: 5px solid black;
-    border-radius: 10px;
-    background: black;
-    color: white;
-    margin: 15px 70px 20px 20px;
-    /*margem em cima, direita, baixo e esquerda*/
-    padding-top: 50px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
+.borda {
+    border: solid red 1px;
 }
 
-body {
-    background: rgb(180, 159, 159);
+p:hover {
+    display: none;
 }
 
-p {
-    color: black;
-    text-align: justify;
-    text-indent: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    font-style: italic;
+div {
+    display: inline-block;
+    height: 150px;
+    width: 33%;
 }
 
-
-
-.botao {
-    margin-left: 40%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 30px;
-    border-radius: 10px;
-    text-decoration: none;
-}
-
-.botao:hover {
-    background-color: green;
-}
-
-a.botao1 {
+.verde {
     background: green;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    border: 4px solid greenyellow;
-    border-radius: 5px;
 }
 
-a.botao1:hover {
+.vermelho {
     background: red;
 }
 
-a.botao2 {
-    text-decoration: none;
-    padding: 10px;
-    border: double 2px blue;
-    color: blue;
-}
-
-a.botao2:hover {
+.azul {
     background: blue;
-    color: white;
-    border: 2px double white;
-}
-
-a.botao3 {
-    color: black;
-    text-decoration: none;
-}
-
-a.botao3:hover {
-    color: red;
-    border-bottom: 3px solid red;
-}
-
-a.botao4 {
-    text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-a.botao4:hover {
-    font-weight: bold;
-}
-
-a.botao5 {
-    cursor: wait;
 }
