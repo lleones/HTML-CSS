@@ -1,51 +1,17 @@
-ul {
-    background-color: black;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
+.gradiente {
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(45deg, blue, rgb(33, 160, 223));
 }
 
-li {
-    float: left;
+h1 {
+    text-shadow: 2px 2px 5px blue;
 }
 
-li a,
-.dropbtn {
-    color: white;
-    text-decoration: none;
-    padding: 14px 16px;
-    display: inline-block;
+.card {
+    width: 40%;
     text-align: center;
-}
-
-li a:hover,
-.dropdown:hover .dropbtn {
-    background-color: red;
-}
-
-li.dropdown {
-    display: inline-block;
-}
-
-.dropdown-content {
-    position: absolute;
+    height: 300px;
     background-color: white;
-    width: 150px;
-    display: none;
-}
-
-.dropdown-content a {
-    color: black;
-    display: block;
-    text-align: left;
-    border: 1px solid gray;
-}
-
-.dropdown-content a:hover {
-    color: white;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
